@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>Stop Watch</h1>
+    <h3>Ek Chota Sa Project</h3>
+    <hr>
+    <div>
+        <h2>Time Duration</h2>
+        <p class="enlarged" id="stopwatchArea"><span id="minutes">00</span> : <span id="seconds">00</span> : <span id= "miliseconds">00</span> </p>
+        <button  id="startButton" onclick="startButton()">Start</button>
+        <button  id="stopButton" onclick="stopButton()" >Pause</button>
+        <button  id="timeLapse" onclick="timeLapse()" >Time Lapse</button>
+        <button id="resetButton" onclick="resetButton()">Reset</button>
+
+
+    </div>
+    <hr>
+    <div >
+        <h2>Time Lapse Entries:</h2>
+        <p id="timeLapseArea"></p>
+    </div>
+
+    <br>
+    <script src="index.js"></script>
+    <footer> Made By  Prashant ❤️.</footer>
+</body>
+</html>
